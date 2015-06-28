@@ -20,6 +20,20 @@ body {
 	padding-top: 75px;
 }
 
+h3 {
+  padding-left: 38px;
+  display: block;
+  font-size: 1.17em;
+  background: -webkit-linear-gradient(#FF0000, #FF6600, #FF9933, #FFCC00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold;
+}
+
 .sf-logo {
 	background-image: url('../images/sf-logo.png');
 	width: 682px;
@@ -39,8 +53,8 @@ body {
 
 .brought-by, .controls {
 	display: none;
-	color: red;
-	font-family: comical;
+	color: #000;
+	font-family: 'VT323';
 	font-size: 50px;
 	width: 600px;
 }
@@ -51,10 +65,13 @@ body {
 }
 
 .controls ul {
+	font-family: 'VT323';
+	list-style: none;
 	width: 50%;
 	color: black;
 	font-size: 24px;
 	line-height: 45px;
+	margin-top: -53px;
 }
 
 .ryu {
